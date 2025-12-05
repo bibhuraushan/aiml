@@ -1,0 +1,29 @@
+name: aiml
+channels:
+  - apple
+  - conda-forge
+dependencies:
+    - python=3.10
+    - pip>=19.0
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - ipykernel
+    - pip:
+        - tensorflow
+        - tensorflow-metal
+        - bayesian-optimization
+        - gym
+        - kaggle
+        - jupyter
+        
